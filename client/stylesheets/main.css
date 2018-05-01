@@ -1,0 +1,64 @@
+/*
+
+@autor Desirée Menezes
+@version 0.1
+
+*/
+
+
+
+body {
+
+  font-family: sans-serif;
+  padding-left: 0px;
+  padding-right: 0px;
+
+}
+
+/******* pag**********/
+.content {
+ height:91vh;
+ width:70,1vw;
+ background-image:url("images/drakeIndex.jpg");
+ background-repeat:no-repeat;
+ background-size:100% 100%;
+ display:flex;
+ justify-content:center;
+ align-items:stretch;
+
+}
+
+
+.title {
+  color: red;
+  font-size: 30px;
+  padding: 20px 0px;
+}
+
+.header {
+  background: black;
+  height: 60px;
+  width: 100%;
+  top: 0;
+}
+
+.nav {
+  width: 720px;
+  margin: 0 auto;
+}
+
+img {
+  width: 30px;
+  height: 30px !important;
+  overflow: hidden;
+  border-radius: 100%;
+  display: inline-block;
+}
+
+
+#headlineText{
+  font-size: 30px;
+  color: white;
+  line-height: 50px;
+
+}
